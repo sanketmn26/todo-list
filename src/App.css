@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Parent-child task CSS Starts */
+
+#main_div{
+  width:300px;
+  height:320px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  border:1px solid black;
+}
+
+#parent_div{
+  width:200px;
+  height:200px;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  /* background-color: #ff0000; */
+}
+
+#btn1{
+  height: 40px;
+  margin-top:10px;
+}
+#input{
+  margin-top: 10px;
+}
+
+/* Parent-child task CSS ends */
+
+
+/* ToDo list CSS starts */
+
+#main1{
+  width: 300px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#main1 h2{
+  text-align: center;
+}
+
+#main-div{
+  width: 285px;
+  height:auto;
+  margin: auto;
+  margin-top: 2%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#main-div input{
+  width: 75%;
+  height: 25px;
+  margin-right: 5px;
+  font-size: large;
+}
+
+#add-btn{
+  height:30px;
+  font-size: large;
+}
+
+.list-item{
+  width:95%;
+  height: auto;
+  font-size: large;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.list-item p{
+  display: inline;
+  word-break: break-all;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+ .del-btn{
+  float: right;
+  font-size: medium;
+
+}
+
+.updt-btn{
+  float: right;
+  font-size: medium;
+}
+
+/* ToDo list CSS ends */
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
